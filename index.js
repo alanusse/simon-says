@@ -5,8 +5,8 @@ const btnStart = document.querySelector('.startGame')
 // color buttons
 const green = document.querySelector('.button__green')
 const red = document.querySelector('.button__red')
-const blue = document.querySelector('.button__blue')
 const yellow = document.querySelector('.button__yellow')
+const blue = document.querySelector('.button__blue')
 
 class Game {
   constructor() {
@@ -26,8 +26,8 @@ class Game {
     this.colors = {
       green,
       red,
-      blue,
-      yellow
+      yellow,
+      blue
     }
 
     btnStart.classList.toggle('startGame--active')
