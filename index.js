@@ -98,16 +98,15 @@ class Game {
       case 'red':
         return 1;
 
-      case 'blue':
+      case 'yellow':
         return 2;
 
-      case 'yellow':
+      case 'blue':
         return 3;
     }
   }
 
   selectColor(e) {
-    console.log(e)
     const dataColor = e.target.dataset.color
     const colorId = this.datasetColorToId(dataColor)
 
